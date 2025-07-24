@@ -56,9 +56,47 @@
 }
 
 /* plant section */
-/* .plant-container{
-
-} */
+.plant-container{
+    margin-top: 120px;
+}
+.plant{
+    text-align: center;
+}
+.plant h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+} 
+.plant p{
+    margin-bottom: 50px;
+} 
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.card{
+    text-align: center;
+    /* border: 1px solid skyblue; */
+}  
+.card h3 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn{
+    background-color:  rgb(233, 90, 8);
+    padding: 15px 92px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
 
 /* @media screen and (max-width:576px){
     .container{
