@@ -97,6 +97,31 @@
     margin-top: 20px;
     border: none;
 }
+/* plant lover section */
+.lover {
+    display: flex;
+    margin-top: 150px;
+}
+.right{
+    margin: 38px 0px 38px 60px;
+}
+.right h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.right ul{
+    margin-left: 45px;
+}
+.img-container{
+    position: relative;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -90px;
+    right: -90px;
+}
 
 /* @media screen and (max-width:576px){
     .container{
