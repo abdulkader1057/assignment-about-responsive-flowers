@@ -178,16 +178,72 @@
     text-align: center;
     padding: 200px;
 }
+/* join section */
+.join{
+    max-width: 1440px;
+    height: 520px;
+    margin: auto;
+    background-image: url(../assets/news-letter-bg.png);
+    text-align: center;
+    padding-top: 250px;
+}
+.join h4{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* @media screen and (max-width:576px){
+}
+.form input{
+    padding: 8px 10px;
+    width: 650px;
+}
+.form button{
+    width: 180px;
+    padding: 8px 10px;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: white;
+}
+
+/* footer section */
+footer {
+    max-width: 1440px;
+    height: 200px;
+    margin: auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 160px;
+}
+.footer-container div li{
+    margin-bottom: 30px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-container div p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-container div img{
+   margin-right: 15px;
+   margin-top: 10px;
+}
+
+@media screen and (max-width:576px){
     .container{
         width: 361px;
         margin: auto;
     }
     .item:nth-child(1), .item:nth-child(2), .item:nth-child(3){
-        visibility: hidden;
+        display: none;
     }
     .banner{
         display: none;
     }
-} */
+}
