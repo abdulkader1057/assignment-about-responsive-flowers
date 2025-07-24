@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.items ul {
+    display: flex;
+    gap: 48px;
+}
+.items ul li{
+    list-style: none;
+}
+.item:nth-child(2), .item:nth-child(3){
+    color: rgb(137, 135, 161);
+}
+.item:nth-child(4) {
+    margin-right: 10px;
+}
+
+/* banner section */
+.banner{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: end;
+    height: 461px;
+}
+.title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.orange{
+    color: rgb(233, 90, 8);
+}
+.sub-title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+}
+.banner div img{
+    display: flex;
+    flex: 1;
+}
+
+/* plant section */
+/* .plant-container{
+
+} */
+
+/* @media screen and (max-width:576px){
+    .container{
+        width: 361px;
+        margin: auto;
+    }
+    .item:nth-child(1), .item:nth-child(2), .item:nth-child(3){
+        visibility: hidden;
+    }
+    .banner{
+        display: none;
+    }
+} */
