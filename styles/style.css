@@ -245,15 +245,15 @@ footer {
     }
     .navbar{
         margin: 50px 20px 28px 20px;
-        width: 380px;
+        width: 395px;
     }
     .banner{
         flex-direction: column-reverse;
+        height: auto;
     }
     .banner div img{
         margin-top: 30px;
         width: 370px;
-        height: 220px;
     }
     .title{
         text-align: start;
@@ -337,11 +337,12 @@ footer {
         width: 120px;
         padding: 8px 10px;
     }
-    .footer{
-        width: 450px;
+    footer{
+        height: auto;
+        width: 100%;
     }
     .footer-container{
         flex-direction: column;
-        padding: 30px;
+        padding: 15px;
     }
 }  
