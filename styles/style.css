@@ -57,7 +57,7 @@
 
 /* plant section */
 .plant-container{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .plant{
     text-align: center;
@@ -236,29 +236,36 @@ footer {
 }
 
 @media screen and (max-width:576px){
+    *{
+        overflow-x: hidden;
+    }
     
     .item:nth-child(1), .item:nth-child(2), .item:nth-child(3){
         display: none;
     }
     .navbar{
-        margin: 50px 16px 28px 16px;
+        margin: 50px 20px 28px 20px;
+        width: 380px;
     }
     .banner{
         flex-direction: column-reverse;
     }
     .banner div img{
-        margin-top: 150px;
-        width: 390px;
-        height: 245px;
+        margin-top: 30px;
+        width: 370px;
+        height: 220px;
     }
     .title{
         text-align: start;
-        margin: 28px 16px 10px 16px;
+        margin: 10px 16px 10px 16px;
         font-size: 24px;
        
     }
     .sub-title{
-        margin: 13px 16px 0px 16px;
+        margin: 13px 16px 13px 16px;
+    }
+    .plant-container{
+        margin-top: 30px;
     }
     .card img{
         width: 225px;
@@ -269,6 +276,9 @@ footer {
        grid-template-columns: repeat(2, 1fr);
        margin: 28px 14px 0px 14px;
     }
+    .btn{
+        padding: 15px 53px;
+    }
     .image{
         display: none;
     }
@@ -276,9 +286,9 @@ footer {
         flex-direction: column;
     }
     .lover div img{
-        width: 465px;
+        width: 390px;
         margin: 0 16px;
-    }
+    } 
     .right{
         margin: 38px 0px 38px 16px;
     }
@@ -296,7 +306,7 @@ footer {
     }
     .img-1, .img-2, .img-3 {
         margin-bottom: 10px;
-        margin-left: 70px;
+        margin-left: 35px;
         width: 360px;
         height: 200px;
         padding: 50px;
@@ -310,7 +320,7 @@ footer {
         margin-top: 30px;
     }
     .join{
-        width: 490px;
+        width: 450px;
         height: 275px;
         padding: 15px;
         text-align: center;
@@ -328,7 +338,7 @@ footer {
         padding: 8px 10px;
     }
     .footer{
-        width: 576px;
+        width: 450px;
     }
     .footer-container{
         flex-direction: column;
